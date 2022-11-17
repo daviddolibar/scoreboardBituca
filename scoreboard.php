@@ -106,6 +106,7 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.3.0/js/dataTables.responsive.min.js"></script>
 <script type="application/javascript">
+
 function showTable(nombretabla){
 document.getElementById(nombretabla).style.visibility = "visible";
 }
@@ -117,7 +118,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
 
         var tabla1=$('#tabla1').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"1"},
   	    },
@@ -146,7 +147,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
 	
 	var tabla2=$('#tabla2').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"2"},
   	    },
@@ -174,7 +175,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
 	
 	var tabla3=$('#tabla3').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"3"},
   	    },
@@ -202,7 +203,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
         
         var tabla4=$('#tabla4').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"4"},
   	    },
@@ -230,7 +231,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
         
         var tabla5=$('#tabla5').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"5"},
   	    },
@@ -258,7 +259,7 @@ document.getElementById(nombretabla).style.visibility = "hidden";
         
         var tabla6=$('#tabla6').DataTable({
             ajax: {
-    		"url": "/get_data.php",
+    		"url": "get_data.php",
     		"type": "POST",
     		"data": {"cate":"6"},
   	    },
